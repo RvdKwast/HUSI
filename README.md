@@ -83,4 +83,4 @@ SenClass = GMM_hUSI(hUSI)
 #### Citation (please make this paper citated when applying hUSI for publication)
 Wang, J., Zhou, X., Yu, P. et al. A transcriptome-based human universal senescence index (hUSI) robustly predicts cellular senescence under various conditions. Nat Aging (2025). https://doi.org/10.1038/s43587-025-00886-2
 
-![only used for statistic](https://iplogger.org/logger/bech5MvXCDLN)
+![](https://iplogger.org/logger/bech5MvXCDLN)
