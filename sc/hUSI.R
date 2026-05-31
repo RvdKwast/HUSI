@@ -1,4 +1,7 @@
-load('sc/SenOCLR_features.rdata')
+sourced_file <- tryCatch(sys.frame(1)$ofile, error = function(e) NULL)
+script_dir <- if (!is.null(sourced_file)) dirname(normalizePath(sourced_file, mustWork = FALSE)) else getwd()
+dir_hUSI <- normalizePath(dirname(script_dir), winslash = "/", mustWork = FALSE)
+load(file.path(dir_hUSI, 'sc/SenOCLR_features.rdata'))
 
 ### calculate hUSI scores
 minmax <- function(x){
